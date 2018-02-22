@@ -26,10 +26,10 @@ $(call inherit-product, vendor/samsung/c7lte-common/c7lte-common-vendor.mk)
 $(call inherit-product, device/samsung/msm8953-common/msm8953.mk)
 
 # Dalvik
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 
 # HWUI
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
