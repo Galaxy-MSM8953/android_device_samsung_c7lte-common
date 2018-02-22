@@ -1,3 +1,7 @@
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.qfp=false
+
 # Sdcard
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.fuse_sdcard=true
