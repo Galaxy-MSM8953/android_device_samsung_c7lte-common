@@ -1,3 +1,7 @@
+# Sdcard
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.fuse_sdcard=true
+
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=368
