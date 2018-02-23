@@ -1,5 +1,11 @@
+# Audio
+etc/Tfa9897.cnt
+-lib/libtfa98xx.so
+
 # Camera
 lib/hw/camera.msm8953.so
+vendor/lib64/libQjpeg.so
+vendor/lib/libQjpeg.so
 
 etc/camera/D05QL_s5k5e3yx_module_info.xml
 etc/camera/I16QL_s5k3p3sx_module_info.xml
@@ -559,16 +565,32 @@ vendor/lib/libchromatix_sr259_vt.so
 vendor/lib/libchromatix_sr259_zsl_preview_lc898122.so
 vendor/lib/libchromatix_sr259_zsl_video_lc898122.so
 
+# Fingerprint
+lib64/libbauthserver.so
+lib64/libbauthtzcommon.so
+lib64/libegis_fp_normal_sensor_test.so
+lib64/libfidoauthnr_v1.so
+lib64/libSensoryBargeInEngine.so
+lib64/libsynaFpSensorTestNwd.so
+lib/libbauthserver.so
+lib/libbauthtzcommon.so
+lib/libegis_fp_normal_sensor_test.so
+lib/libfidoauthnr_v1.so
+lib/libSensoryBargeInEngine.so
+lib/libsynaFpSensorTestNwd.so
+
 # Sensors
 bin/sensors.qcom
 lib64/hw/sensors.msm8953.so
 lib/hw/sensors.msm8953.so
 vendor/etc/yas_set.cfg
+vendor/lib64/libSecPedometer.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libyasalgo.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
+vendor/lib/libSecPedometer.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libyasalgo.so
