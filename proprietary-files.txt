@@ -4,8 +4,26 @@ etc/Tfa9897.cnt
 
 # Camera
 lib/hw/camera.msm8953.so
+lib64/libarac.so
+lib/libarac.so
+vendor/lib64/libOpenCv.so
 vendor/lib64/libQjpeg.so
+vendor/lib64/libPhotoEnhance.so
+vendor/lib64/libsomp.so
+vendor/lib64/libtmdisplay.so
+vendor/lib64/libtzdrmgenprov.so
+vendor/lib/libactuator_zc535.so
+vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so
+vendor/lib/libmmcamera_s5k3p8sx.so
+vendor/lib/libmmcamera_s5k3p8sx_ak7372.so
+vendor/lib/libmmcamera_sr846.so
+vendor/lib/libOpenCv.so
 vendor/lib/libQjpeg.so
+vendor/lib/libsomp.so
+vendor/lib/libtm_interface.so
+vendor/lib/libtmdisplay.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libubifocus.so
 
 etc/camera/D05QL_s5k5e3yx_module_info.xml
 etc/camera/I16QL_s5k3p3sx_module_info.xml
@@ -572,6 +590,8 @@ lib64/libegis_fp_normal_sensor_test.so
 lib64/libfidoauthnr_v1.so
 lib64/libSensoryBargeInEngine.so
 lib64/libsynaFpSensorTestNwd.so
+lib64/libvaultkeeperclient.so
+lib64/libvaultkeeperjni.so
 lib/libbauthserver.so
 lib/libbauthtzcommon.so
 lib/libegis_fp_normal_sensor_test.so
@@ -581,8 +601,12 @@ lib/libsynaFpSensorTestNwd.so
 
 # Sensors
 bin/sensors.qcom
+etc/apdr.conf
 lib64/hw/sensors.msm8953.so
 lib/hw/sensors.msm8953.so
+lib64/libPedometer.so
+lib64/libSensorNativeProtocol.so
+lib64/libSwPedometer.so
 vendor/etc/yas_set.cfg
 vendor/lib64/libSecPedometer.so
 vendor/lib64/libsensor1.so
@@ -590,6 +614,9 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/libyasalgo.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
+vendor/lib/libasn1cper.so
+vendor/lib/libasn1crt.so
+vendor/lib/libasn1crtx.so
 vendor/lib/libSecPedometer.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
