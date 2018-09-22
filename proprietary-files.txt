@@ -792,6 +792,11 @@ lib/libegis_fp_normal_sensor_test.so
 lib/libfidoauthnr_v1.so
 lib/libsynaFpSensorTestNwd.so
 
+# NFC
+etc/nfc_key
+lib/hw/nfc_nci.msm8953.so
+lib64/hw/nfc_nci.msm8953.so
+
 # Sensors
 bin/sensors.qcom
 etc/apdr.conf
