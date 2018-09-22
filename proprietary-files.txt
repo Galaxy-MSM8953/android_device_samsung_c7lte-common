@@ -9,7 +9,7 @@ lib64/libarcsoft_bestphoto_select.so
 lib64/libatomjpeg.so
 lib64/libsccore.so
 lib64/libsecjpegquram.so
-lib/hw/camera.vendor.msm8953.so
+lib/hw/camera.msm8953.so:lib/hw/camera.vendor.msm8953.so
 lib/libalawb_algo.so
 lib/libarac.so
 lib/libarcsoft_panorama_burstcapture.so
